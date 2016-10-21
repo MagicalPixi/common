@@ -1,0 +1,24 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "magicalpixi common lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://https://github.com/MagicalPixi/common.git"
+  },
+  "author": "guoshencheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicalPixi/common/issues"
+  },
+  "homepage": "https://github.com/MagicalPixi/common#README",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "pluralize": "^3.0.0",
+    "shortid": "^2.2.6"
+  }
+}
