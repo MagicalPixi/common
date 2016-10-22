@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "mp_common",
   "version": "1.0.0",
   "description": "magicalpixi common lib",
   "main": "index.js",

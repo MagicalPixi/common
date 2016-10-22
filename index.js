@@ -6,6 +6,7 @@ module.exports = (opt) => {
     encode: require('./lib/encode')(key),
     header: require('./lib/header')(key),
     request: require('./lib/request'),
-    statics: require('./lib/statics')
+    statics: require('./lib/statics'),
+    StringUtil: require('./lib/StringUtil')
   }
 }
