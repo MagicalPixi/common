@@ -7,7 +7,7 @@ var check = common.auth.check(authObj)
 
 console.log('auth checked: >>>', check ? 'success! ' : 'faild! ')
 
-console.log('server header: >>>', common.header.server())
+console.log('server header: >>>', common.header.server('admin'))
 console.log('browser header: >>>', common.header.browser(authObj[staties.user_id], authObj[staties.auth_id], authObj[staties.auth], authObj[staties.expire_time]))
 common.request('http://db.magicalpixi.com')('pixi', 'user').getAll().then(value => {
   console.log(value.data)
