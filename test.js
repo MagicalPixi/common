@@ -1,4 +1,4 @@
-var common = require('./')({key: 'test_key'})
+var common = require('./').create({key: 'test_key'})
 var staties = common.statics
 var authObj = common.auth.generate('12', 3600 * 1000)
 console.log('auth generated: >>>', authObj)
